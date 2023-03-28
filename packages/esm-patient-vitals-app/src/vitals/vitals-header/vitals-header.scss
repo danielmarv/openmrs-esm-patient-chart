@@ -36,10 +36,11 @@
 }
 
 
-:global(.omrs-breakpoint-lt-desktop) {
+:global(.omrs-breakpoint-lt-desktop), .workspace-open {
   .row {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 5rem;
   }
 }
 
